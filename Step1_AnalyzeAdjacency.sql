@@ -4,10 +4,10 @@ select
   st_dwithin(a.geom, b.geom,50) as adjacent
 from
   (Select id, geom
-   FROM rps.greenecounty) a
+   FROM rps.nyparcels) a
 CROSS JOIN
   (Select id, geom
-   FROM rps.greenecounty) b
+   FROM rps.nyparcels) b
 where
   st_dwithin(a.geom, b.geom,50) = true
 order by a.id
