@@ -2,7 +2,7 @@
 
 Statewide adjacent parcel aggregation efforts.
 
-NOTE: These methods were developed for an originally implemented on statewide CoreLogic Parcel Point data for NY State.
+NOTE: These methods were developed for and originally implemented on statewide CoreLogic Parcel Point data for NY State.
 
 **Step 1:**
 *Filename:* Step1_AnalyzeAdjacency.sql
